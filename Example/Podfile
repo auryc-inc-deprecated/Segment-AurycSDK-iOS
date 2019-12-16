@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Segment-AurycSDK-iOS_Example' do
+  pod 'Segment-AurycSDK-iOS', :path => '../'
+
+  target 'Segment-AurycSDK-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
