@@ -8,11 +8,26 @@
 
 #import "ARYCAppDelegate.h"
 
+#import <Analytics/SEGAnalytics.h>
+#import <Segment_AurycSDK_iOS/SEGAurycSDKIntegrationFactory.h>
 @implementation ARYCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    SEGAnalyticsConfiguration *configuration = [SEGAnalyticsConfiguration configurationWithWriteKey:@"iKH2B9EtGG5yuuka8smFO8bLETdkjBje"];
+
+    // Enable this to record certain application events automatically!
+    configuration.trackApplicationLifecycleEvents = YES;
+
+    // Enable this to record screen views automatically!
+    configuration.recordScreenViews = YES;
+
+    [configuration use:[SEGAurycSDKIntegrationFactory instance]];
+    
+    [SEGAnalytics setupWithConfiguration:configuration];
+
     return YES;
 }
 

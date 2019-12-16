@@ -7,244 +7,480 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00DEBC587193EA00CA2E90648E9B684F /* Pods-Segment-AurycSDK-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C42EC536CDA4BFAD98C641E5164DBF4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */; };
-		0800C3BC21AA96469A134DE987112867 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2121123C397A8A84F29F914350C57AC6 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m */; };
-		1883CFE408F114A37A2EB536654C5ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2BC0A4C1655E8FC5EB82454383E1B372 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BD7095C49D87064D41A6889D9BF815 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		527ED2F991F162BC932E995123D6933A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8598682FAC1A4D7386B4087EA5FC86 /* ReplaceMe.m */; };
-		6E45A1A091A9ED4909D6355F22ED1B68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8F45EE8D154C3206A2B23A5A5D8DC171 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A4EEACE97DF7410DD31E5C5B667254 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96351AAD7EBC61592008CEC1DA3F2836 /* Segment-AurycSDK-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E62542036F23B4058C4AE64DC9FFF809 /* Segment-AurycSDK-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAA83CD33EA74FCF653414C4A229E86A /* Segment-AurycSDK-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A283C3586D2532F590F33211F098DC /* Segment-AurycSDK-iOS-dummy.m */; };
-		DFF7D45AE5B682E7A2DB0EBA82126A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		016DEFC011D48933CE608CD77C226BCB /* SEGSegmentIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB719FBA354FFFEA0B4493F39F5C54D /* SEGSegmentIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0324BCE792BBCEAA7D89814C71A7CF62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1180FF9D0CF302C3E4A6A06F0179766 /* UIKit.framework */; };
+		16AC0D40B9B6CD6B8B6E8B1A46A10984 /* UIViewController+SEGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = BB2DA87DD4F4B649404213F4A67ED30F /* UIViewController+SEGScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E11F3DE2E16BDB01162FE779A7E773 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9849A8DD98A6444D5577719878699 /* Analytics.framework */; };
+		1771FB5831C64D1663848033A4F7164B /* SEGUserDefaultsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = FF26D42BAC51435CB00A709D50C2C3D9 /* SEGUserDefaultsStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19C5F4992EAD9CFF33ADC4D741865AFC /* SEGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFF3C21A91C7C54BC1120802D1ED602 /* SEGContext.m */; };
+		1CBFBFAB3A2CBB46CB1CE442E7A03C84 /* Analytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA92B99D24B6D3415C9DB103BB7EC5A /* Analytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D998FA81A7384756482F055619879D8 /* SEGIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1978BB9E2E25DF76676D5D4F27830F /* SEGIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2100B6C6064764844E170B166B2BEBCF /* SEGPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = F590E75CC695DD3EDB285A5C9FC8D220 /* SEGPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22670426A127B737276D8122EFC13463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78EE17D11AD07E6FF78CF10F0B87B90 /* Foundation.framework */; };
+		23CDE292C19FE144F63D5ABAE26E7E86 /* NSData+SEGGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C1E387CF7A8508C58900F94D7F869C /* NSData+SEGGZIP.m */; };
+		261E61B46FAE966287387E6151CDCA61 /* SEGAnalyticsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0970BD7636C76890A20414955C5854 /* SEGAnalyticsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C797F478AD450003AF011115A5E697 /* SEGAnalyticsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A1D5CC06B45016F36123EFB9A07B5C /* SEGAnalyticsConfiguration.m */; };
+		2787BC674AD9478982563FF0D05A471A /* SEGTrackPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A716193124E2CE02C202CF05B837C1 /* SEGTrackPayload.m */; };
+		288538A74C9C2BF5FE023932C9AAAAD2 /* SEGAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D543FA4134A323E72BA6DE3DB803A5A0 /* SEGAnalyticsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A27ECC7375D7A60FB349D1DEF97D209 /* SEGTrackPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = F516FB1FCB19250D2BB9ED3446E9CF79 /* SEGTrackPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3003F28FE9B73C33CDEC4EA8AD92662C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BFCFF593524DC17770239C2F9056D0 /* SystemConfiguration.framework */; };
+		39DE7EFA0BAD588A3607B69C46778B22 /* SEGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F2096D264F3D04E770130196D30DD5 /* SEGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C82DFB36EC0432629A2BD33180E83F9 /* SEGIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 345566619A5D004C6563659CCA363A17 /* SEGIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41F3A47D2A6F7FBD88A1CBCCC47A769E /* SEGMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A032883B507D57D411E8BC89AA13F38 /* SEGMiddleware.m */; };
+		4630C5C9C6454B7354B2DDC4C061FC72 /* SEGAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B865167B1EE301CA8D422701E641D5 /* SEGAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563A656ED8ADE135BFB0D79A3D53365B /* Segment-AurycSDK-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A34681C4854E2DB118E8C9C7EF0665 /* Segment-AurycSDK-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56BA6C4555ABD4638DBE2C12EBFF2A2C /* SEGUserDefaultsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF8CDCD94821529B1B754E4F0F0D2E /* SEGUserDefaultsStorage.m */; };
+		57FBFF6B31A9CA5846AAAC0D3C9EC059 /* SEGGroupPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9386A331592836B87D51E2E6D4997 /* SEGGroupPayload.m */; };
+		580F8FEBCC0AB691D807790DD255BE56 /* SEGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 369C165ECED231EDCAA579A7D7C7FBE2 /* SEGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5894C6ED52D0C1DC487795734230EC72 /* SEGPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 27096BF49DDE719FDB7EA03040D059BE /* SEGPayload.m */; };
+		58D8EB1CA8AA5E01E40ABD8DE806AF48 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544079F2C7F8F1B212B348B9E5CE28C9 /* Security.framework */; };
+		58E7E64422D87B75C174BCE2F2C01C73 /* SEGScreenPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AB67E476B2FB9BBB94F7D3BF6EDC0B /* SEGScreenPayload.m */; };
+		5D39E99AA122E44AE78B9D15C0A1D71F /* SEGHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8AAAEEF8F8D9EF695A69AB07981181 /* SEGHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61268F0616C261A1516729CFA4ABF10E /* SEGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 6159F1B1594ABD631254F1FCC3F5375C /* SEGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6767276328F17625D08771C5E730C069 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D015071838F1BFC1DAC74995711C48 /* CoreTelephony.framework */; };
+		6A3A0F4006903165C202B2C593E04EF7 /* SEGIntegrationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB56D827ADE0E0311D8A928039C0223 /* SEGIntegrationsManager.m */; };
+		6C6D797E955DE10B1F6616B1CDD08FEF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4F809B8297E5FBEB65725D1990236 /* StoreKit.framework */; };
+		6C7294F18F07094D8F933596DB5EF30D /* SEGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 380292D68F3F8B5A425AF8BE4194E073 /* SEGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D406F93789A432C71FE7AFFF78443B3 /* SEGAurycSDKIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD8923399DDF7EA3FAA39B001E2715 /* SEGAurycSDKIntegrationFactory.m */; };
+		70D0A707D25628CFBC6737B7ED48724F /* SEGMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = 866A4B5B8C6E20E8D1367A9AF7730A19 /* SEGMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A2E927DD0A51F365BC2F7360C6A0F17 /* SEGIdentifyPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B08443FC767CDCD2F60B17370ACC891 /* SEGIdentifyPayload.m */; };
+		7D5F329D3047CC981666A1E222F376BA /* SEGSegmentIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ED0F73D189233B4FF2B7FE0610FDBD /* SEGSegmentIntegration.m */; };
+		804916D38B81E5C5546B90113A735AD4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 334E3EB9B87957274E72464583D19FAD /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */; };
+		8246F73E4A1615A0B0C8C1D1966A2DA1 /* SEGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A7648B9EE7B00488772D8DEAAB88DD9C /* SEGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841E24D0AF5C0B8485576D3C8AB6E2DA /* NSData+SEGGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C78611F26BEDDBEAAD230613F5676C /* NSData+SEGGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF840205203833009271CB3D0203371 /* SEGCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E90A735E2E6C0076F5AB605C0ED1C7F /* SEGCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9165A8F831FB3B66B3AA84678AE3FA6B /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 335844C64143087AD3E8C2CE05E96854 /* SEGAnalyticsUtils.m */; };
+		971B0235BF694BA74ED04913804FFFC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78EE17D11AD07E6FF78CF10F0B87B90 /* Foundation.framework */; };
+		9882409BD02AD5D13CB8EEF755EF634E /* SEGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9FFF0A03749A690B1E35A4512DE08 /* SEGHTTPClient.m */; };
+		9C8540AAD22B061E2190824BF81B54FE /* SEGFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E8FD0DDFC8DE02C8CC12DAAB8D9CA /* SEGFileStorage.m */; };
+		A0378EF7756C304765F79443ED318C18 /* SEGAES256Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 989F58AD5A84DF1BFFBBE2A83A7BC5FA /* SEGAES256Crypto.m */; };
+		A34091E818C633E3C6EFBF269032E502 /* SEGAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC97DA4707EB39BF37FEA37D16E545 /* SEGAnalytics.m */; };
+		A3BED668E2DBD4320704A1B7B281713A /* SEGAliasPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C1649E20CC386DA9F54474AAB8FA0C /* SEGAliasPayload.m */; };
+		A7150EB6D6A2CF8D3E9802ADB892C472 /* SEGAurycSDKIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = FF85D9FA0347858FD14757728D60418B /* SEGAurycSDKIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC2F9FE379EA010F79C3EC4DE9C53C16 /* SEGAurycSDKIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FBC11F2DCD13D5E8DC5E8694EDE06 /* SEGAurycSDKIntegration.m */; };
+		B00767D68E0F4B086B2C05C73D1CCE00 /* SEGStoreKitTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCACB085E09127224ECB5A906BB5224 /* SEGStoreKitTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66A21BC2FCA32342E150B093D885611 /* SEGSerializableValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E40D0C9EE53B04FA0432B18B018BCE /* SEGSerializableValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7A1826AEBD6EC83A52D7C5F05FA9B6D /* SEGIntegrationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD823C1F5A86E23ABD2523B57D30C59 /* SEGIntegrationsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9222104F894B370B95DEAE860136A32 /* Segment-AurycSDK-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77509D921236A2ED442A6BBEF5AAD9A9 /* Segment-AurycSDK-iOS-dummy.m */; };
+		D337266C718308BE5F09F3DEEB14F28E /* SEGStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2C5B4038BA15046FE733E0CC2F9CC7 /* SEGStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43E9F1E6FF7C40A49A66D76578D97C9 /* SEGSegmentIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EE980DE161B025B6E028FEF35E285 /* SEGSegmentIntegrationFactory.m */; };
+		D5C061257AEDA75EE2457E0BF640F592 /* SEGStoreKitTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEDCDB71969779B8823A6F7AF2CC9E /* SEGStoreKitTracker.m */; };
+		D63AB88767CDBB609D7E1FFF77CFE8D6 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32942A7FA438F628B73D78E1A4A49B01 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB35DE82F8EEC8D6E7CCD06B036AA584 /* Analytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C973DD4D832A963249DDB608E3D03FD /* Analytics-dummy.m */; };
+		DC0DFB3152B85667308804A33F2C89D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78EE17D11AD07E6FF78CF10F0B87B90 /* Foundation.framework */; };
+		DF806385F573BF037E9C48EA1096964E /* SEGFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB827E69F5BE3C1D6343E2B3F565E6E /* SEGFileStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E273D76DE74EA4B69A8271E8758203B1 /* SEGScreenPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B32687C7762BDE171C6055A05984CC9 /* SEGScreenPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF37AE8AF3CB45FF665F9AEC8332A4BC /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 699645C117E4019AE5C707DC77813A80 /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA99E6839AC03D94497556D7BAF6602 /* UIViewController+SEGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4330132F8E1A5B5D79B174FEE23C5F4A /* UIViewController+SEGScreen.m */; };
+		F414B63167E12864022BF68C218921B5 /* SEGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F4541A829E216F6F755CF007A4192F91 /* SEGUtils.m */; };
+		F7C184767C5C3B116DC6AE853310F4F2 /* SEGAurycSDKIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FF737ECFD229043975F1161A64BC25 /* SEGAurycSDKIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFD5F9D8264C0F4EB7A08EA374696AD /* SEGAES256Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEF4DFEDBCA28299AA62F29E9A3AC2D /* SEGAES256Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1F6D65D5B23DD5205AB95D3075765B /* SEGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FA91B40A34AFBCD8893D5BFE0ED7AF83 /* SEGReachability.m */; };
+		FF9A923E8488E25804172CBBE68CF809 /* SEGContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 14CB9792AA9896C6FD5323B16B12EB68 /* SEGContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0910EE2AFFEF7E523F598A3A394BD603 /* PBXContainerItemProxy */ = {
+		3598EF08CAD3A7AF0A1E311F7FAD2F81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 02AFA38FFF068FAE7F7F492CDE600CDE;
 			remoteInfo = "Segment-AurycSDK-iOS";
 		};
-		939ED363B5AFC737DFDB09C204009C87 /* PBXContainerItemProxy */ = {
+		38F8D0680043B98D68C6189C3BDB9F2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C760FBA4D09C48E62A1D65CFD00BED5;
-			remoteInfo = "Pods-Segment-AurycSDK-iOS_Example";
+			remoteGlobalIDString = 8F50A15C556FFEAD343B69C7EA54092F;
+			remoteInfo = Analytics;
+		};
+		39FB70F8133D50D3A6A08EFC00916BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F50A15C556FFEAD343B69C7EA54092F;
+			remoteInfo = Analytics;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0301F1B1CC7D83F0D12B288864D1082B /* Segment-AurycSDK-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-AurycSDK-iOS-prefix.pch"; sourceTree = "<group>"; };
-		1E1C1CCFDD346658D26FF3A136853F19 /* Pods-Segment-AurycSDK-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Segment-AurycSDK-iOS_Tests.modulemap"; sourceTree = "<group>"; };
-		2121123C397A8A84F29F914350C57AC6 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segment-AurycSDK-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F6A7D88815F2ECF7042A8EC385656FC /* Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		42CF78D68F156D9434F33EB5609B3E90 /* Pods-Segment-AurycSDK-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Segment-AurycSDK-iOS_Example.modulemap"; sourceTree = "<group>"; };
-		568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Segment-AurycSDK-iOS.xcconfig"; sourceTree = "<group>"; };
-		651EFA63FBD0182EACF36562F6349736 /* Pods_Segment_AurycSDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Segment_AurycSDK_iOS_Tests.framework; path = "Pods-Segment-AurycSDK-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C42EC536CDA4BFAD98C641E5164DBF4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segment-AurycSDK-iOS_Example-dummy.m"; sourceTree = "<group>"; };
-		712B19CEAA65B6431F88C28CE150A8F0 /* Pods-Segment-AurycSDK-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
-		72554500927C5E05548980EDFE985F31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		75BD7095C49D87064D41A6889D9BF815 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Segment-AurycSDK-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		80A283C3586D2532F590F33211F098DC /* Segment-AurycSDK-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segment-AurycSDK-iOS-dummy.m"; sourceTree = "<group>"; };
-		922858BDB61220753B8B3F7AAFC043F3 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B7F579469083101DECA28B00D579FCA /* Segment-AurycSDK-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Segment-AurycSDK-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		00B4F809B8297E5FBEB65725D1990236 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		023EA876745913546F8F498D59F08DB2 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C973DD4D832A963249DDB608E3D03FD /* Analytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Analytics-dummy.m"; sourceTree = "<group>"; };
+		13A5ADA7DB9C4FB3B374841EBC3536C1 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13D9386A331592836B87D51E2E6D4997 /* SEGGroupPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGroupPayload.m; path = Analytics/Classes/Integrations/SEGGroupPayload.m; sourceTree = "<group>"; };
+		14CB9792AA9896C6FD5323B16B12EB68 /* SEGContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGContext.h; path = Analytics/Classes/Middlewares/SEGContext.h; sourceTree = "<group>"; };
+		1A2C5B4038BA15046FE733E0CC2F9CC7 /* SEGStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStorage.h; path = Analytics/Classes/Internal/SEGStorage.h; sourceTree = "<group>"; };
+		1DB827E69F5BE3C1D6343E2B3F565E6E /* SEGFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGFileStorage.h; path = Analytics/Classes/Internal/SEGFileStorage.h; sourceTree = "<group>"; };
+		228FF51AAEA4BD09755ACD7DE27F2622 /* Segment-AurycSDK-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Segment-AurycSDK-iOS.modulemap"; sourceTree = "<group>"; };
+		27096BF49DDE719FDB7EA03040D059BE /* SEGPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGPayload.m; path = Analytics/Classes/Integrations/SEGPayload.m; sourceTree = "<group>"; };
+		2CE4B6165F426953A26419DF02AF0D93 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Analytics.framework; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEF4DFEDBCA28299AA62F29E9A3AC2D /* SEGAES256Crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAES256Crypto.h; path = Analytics/Classes/Crypto/SEGAES256Crypto.h; sourceTree = "<group>"; };
+		32942A7FA438F628B73D78E1A4A49B01 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Segment-AurycSDK-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		334E3EB9B87957274E72464583D19FAD /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segment-AurycSDK-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		335844C64143087AD3E8C2CE05E96854 /* SEGAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsUtils.m; path = Analytics/Classes/Internal/SEGAnalyticsUtils.m; sourceTree = "<group>"; };
+		338E8FD0DDFC8DE02C8CC12DAAB8D9CA /* SEGFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGFileStorage.m; path = Analytics/Classes/Internal/SEGFileStorage.m; sourceTree = "<group>"; };
+		345566619A5D004C6563659CCA363A17 /* SEGIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationFactory.h; path = Analytics/Classes/Integrations/SEGIntegrationFactory.h; sourceTree = "<group>"; };
+		369C165ECED231EDCAA579A7D7C7FBE2 /* SEGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGReachability.h; path = Analytics/Vendor/SEGReachability.h; sourceTree = "<group>"; };
+		380292D68F3F8B5A425AF8BE4194E073 /* SEGGroupPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGGroupPayload.h; path = Analytics/Classes/Integrations/SEGGroupPayload.h; sourceTree = "<group>"; };
+		3B32687C7762BDE171C6055A05984CC9 /* SEGScreenPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGScreenPayload.h; path = Analytics/Classes/Integrations/SEGScreenPayload.h; sourceTree = "<group>"; };
+		40B4EE85682DD2C61BD47999F8EEFB41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		42C1E387CF7A8508C58900F94D7F869C /* NSData+SEGGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SEGGZIP.m"; path = "Analytics/Classes/Internal/NSData+SEGGZIP.m"; sourceTree = "<group>"; };
+		4330132F8E1A5B5D79B174FEE23C5F4A /* UIViewController+SEGScreen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SEGScreen.m"; path = "Analytics/Classes/Internal/UIViewController+SEGScreen.m"; sourceTree = "<group>"; };
+		47A716193124E2CE02C202CF05B837C1 /* SEGTrackPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGTrackPayload.m; path = Analytics/Classes/Integrations/SEGTrackPayload.m; sourceTree = "<group>"; };
+		48F2096D264F3D04E770130196D30DD5 /* SEGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUtils.h; path = Analytics/Classes/Internal/SEGUtils.h; sourceTree = "<group>"; };
+		492B927828C40024110399CCD70BD19D /* Pods-Segment-AurycSDK-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Segment-AurycSDK-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		4A7EE980DE161B025B6E028FEF35E285 /* SEGSegmentIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegrationFactory.m; path = Analytics/Classes/Internal/SEGSegmentIntegrationFactory.m; sourceTree = "<group>"; };
+		4AD823C1F5A86E23ABD2523B57D30C59 /* SEGIntegrationsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationsManager.h; path = Analytics/Classes/Integrations/SEGIntegrationsManager.h; sourceTree = "<group>"; };
+		50104A6EC09B65101D536CC8F401B979 /* Pods-Segment-AurycSDK-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		544079F2C7F8F1B212B348B9E5CE28C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5AB56D827ADE0E0311D8A928039C0223 /* SEGIntegrationsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIntegrationsManager.m; path = Analytics/Classes/Integrations/SEGIntegrationsManager.m; sourceTree = "<group>"; };
+		5B0970BD7636C76890A20414955C5854 /* SEGAnalyticsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsConfiguration.h; path = Analytics/Classes/SEGAnalyticsConfiguration.h; sourceTree = "<group>"; };
+		5BB8A63104462C2BEE4C6291F5AF9CC8 /* Pods-Segment-AurycSDK-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Segment-AurycSDK-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		60B865167B1EE301CA8D422701E641D5 /* SEGAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalytics.h; path = Analytics/Classes/SEGAnalytics.h; sourceTree = "<group>"; };
+		6159F1B1594ABD631254F1FCC3F5375C /* SEGAliasPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAliasPayload.h; path = Analytics/Classes/Integrations/SEGAliasPayload.h; sourceTree = "<group>"; };
+		63CEDCDB71969779B8823A6F7AF2CC9E /* SEGStoreKitTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGStoreKitTracker.m; path = Analytics/Classes/Internal/SEGStoreKitTracker.m; sourceTree = "<group>"; };
+		699645C117E4019AE5C707DC77813A80 /* SEGSegmentIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegration.h; path = Analytics/Classes/Internal/SEGSegmentIntegration.h; sourceTree = "<group>"; };
+		6A032883B507D57D411E8BC89AA13F38 /* SEGMiddleware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGMiddleware.m; path = Analytics/Classes/Middlewares/SEGMiddleware.m; sourceTree = "<group>"; };
+		6CB719FBA354FFFEA0B4493F39F5C54D /* SEGSegmentIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSegmentIntegrationFactory.h; path = Analytics/Classes/Internal/SEGSegmentIntegrationFactory.h; sourceTree = "<group>"; };
+		7142FA7E463F310BB0EEBC46F24DBA4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		71E40D0C9EE53B04FA0432B18B018BCE /* SEGSerializableValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGSerializableValue.h; path = Analytics/Classes/SEGSerializableValue.h; sourceTree = "<group>"; };
+		72D015071838F1BFC1DAC74995711C48 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		7537F1913BF0B082601D08839F7DC0E4 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77509D921236A2ED442A6BBEF5AAD9A9 /* Segment-AurycSDK-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segment-AurycSDK-iOS-dummy.m"; sourceTree = "<group>"; };
+		77A34681C4854E2DB118E8C9C7EF0665 /* Segment-AurycSDK-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-AurycSDK-iOS-umbrella.h"; sourceTree = "<group>"; };
+		78A9FFF0A03749A690B1E35A4512DE08 /* SEGHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGHTTPClient.m; path = Analytics/Classes/Internal/SEGHTTPClient.m; sourceTree = "<group>"; };
+		7A21345CBC6A7D2E5EB0664DA8176A28 /* Segment-AurycSDK-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Segment-AurycSDK-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7FE28616D39DE2161F46071D30FCF3CF /* Segment-AurycSDK-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-AurycSDK-iOS-prefix.pch"; sourceTree = "<group>"; };
+		866A4B5B8C6E20E8D1367A9AF7730A19 /* SEGMiddleware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGMiddleware.h; path = Analytics/Classes/Middlewares/SEGMiddleware.h; sourceTree = "<group>"; };
+		87AD8923399DDF7EA3FAA39B001E2715 /* SEGAurycSDKIntegrationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAurycSDKIntegrationFactory.m; path = "Segment-AurycSDK-iOS/Classes/SEGAurycSDKIntegrationFactory.m"; sourceTree = "<group>"; };
+		8E8AAAEEF8F8D9EF695A69AB07981181 /* SEGHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGHTTPClient.h; path = Analytics/Classes/Internal/SEGHTTPClient.h; sourceTree = "<group>"; };
+		8E90A735E2E6C0076F5AB605C0ED1C7F /* SEGCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGCrypto.h; path = Analytics/Classes/Crypto/SEGCrypto.h; sourceTree = "<group>"; };
+		91E758122ED05722CB4AFD2440298D2E /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93BFCFF593524DC17770239C2F9056D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		989F58AD5A84DF1BFFBBE2A83A7BC5FA /* SEGAES256Crypto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAES256Crypto.m; path = Analytics/Classes/Crypto/SEGAES256Crypto.m; sourceTree = "<group>"; };
+		999FD9E9570AD0DDD6551DC13B8077C6 /* Segment-AurycSDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Segment-AurycSDK-iOS.xcconfig"; sourceTree = "<group>"; };
+		9B08443FC767CDCD2F60B17370ACC891 /* SEGIdentifyPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGIdentifyPayload.m; path = Analytics/Classes/Integrations/SEGIdentifyPayload.m; sourceTree = "<group>"; };
+		9B1978BB9E2E25DF76676D5D4F27830F /* SEGIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegration.h; path = Analytics/Classes/Integrations/SEGIntegration.h; sourceTree = "<group>"; };
+		9CA92B99D24B6D3415C9DB103BB7EC5A /* Analytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E8598682FAC1A4D7386B4087EA5FC86 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "Segment-AurycSDK-iOS/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
-		9FCF3A21315247B23FC9ED9569CF31CC /* Segment-AurycSDK-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Segment-AurycSDK-iOS.modulemap"; sourceTree = "<group>"; };
-		AD38A22C701D2E6F7F27630D22330DCE /* Segment-AurycSDK-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segment-AurycSDK-iOS-Info.plist"; sourceTree = "<group>"; };
-		BB386296651F1271B57D08D57EB53F75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C0A4EEACE97DF7410DD31E5C5B667254 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Segment-AurycSDK-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		C7A7730941D7E14B59DC84FABFA1826E /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CAC65B8C9C2AAD867FB4B955CD2E5BA7 /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D3CB4B8576D5B69235FDF169A16761BF /* Pods-Segment-AurycSDK-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Example-Info.plist"; sourceTree = "<group>"; };
-		D3E40BEDDD09C7F0A46DDB2A2D726AC8 /* Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D689D3458FB62C865032D7F2D22E7907 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E62542036F23B4058C4AE64DC9FFF809 /* Segment-AurycSDK-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-AurycSDK-iOS-umbrella.h"; sourceTree = "<group>"; };
-		EE131C9CCEC78E3C7955D76175F26D39 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A140AC67269E2C07304DDB11BF8D16FA /* Analytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Analytics.xcconfig; sourceTree = "<group>"; };
+		A5DC97DA4707EB39BF37FEA37D16E545 /* SEGAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalytics.m; path = Analytics/Classes/SEGAnalytics.m; sourceTree = "<group>"; };
+		A7648B9EE7B00488772D8DEAAB88DD9C /* SEGIdentifyPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIdentifyPayload.h; path = Analytics/Classes/Integrations/SEGIdentifyPayload.h; sourceTree = "<group>"; };
+		AFFF3C21A91C7C54BC1120802D1ED602 /* SEGContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGContext.m; path = Analytics/Classes/Middlewares/SEGContext.m; sourceTree = "<group>"; };
+		B0A1D5CC06B45016F36123EFB9A07B5C /* SEGAnalyticsConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAnalyticsConfiguration.m; path = Analytics/Classes/SEGAnalyticsConfiguration.m; sourceTree = "<group>"; };
+		B5C78611F26BEDDBEAAD230613F5676C /* NSData+SEGGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SEGGZIP.h"; path = "Analytics/Classes/Internal/NSData+SEGGZIP.h"; sourceTree = "<group>"; };
+		B8ED0F73D189233B4FF2B7FE0610FDBD /* SEGSegmentIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGSegmentIntegration.m; path = Analytics/Classes/Internal/SEGSegmentIntegration.m; sourceTree = "<group>"; };
+		B9EDD2CA89E4F5F69397C36593532E97 /* Analytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Analytics.modulemap; sourceTree = "<group>"; };
+		BB2DA87DD4F4B649404213F4A67ED30F /* UIViewController+SEGScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SEGScreen.h"; path = "Analytics/Classes/Internal/UIViewController+SEGScreen.h"; sourceTree = "<group>"; };
+		BBCF8CDCD94821529B1B754E4F0F0D2E /* SEGUserDefaultsStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUserDefaultsStorage.m; path = Analytics/Classes/Internal/SEGUserDefaultsStorage.m; sourceTree = "<group>"; };
+		BFF2DDB4362F0195E72E47A7ADF02582 /* Segment-AurycSDK-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segment-AurycSDK-iOS-Info.plist"; sourceTree = "<group>"; };
+		C1180FF9D0CF302C3E4A6A06F0179766 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE3FBC11F2DCD13D5E8DC5E8694EDE06 /* SEGAurycSDKIntegration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAurycSDKIntegration.m; path = "Segment-AurycSDK-iOS/Classes/SEGAurycSDKIntegration.m"; sourceTree = "<group>"; };
+		D543FA4134A323E72BA6DE3DB803A5A0 /* SEGAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsUtils.h; path = Analytics/Classes/Internal/SEGAnalyticsUtils.h; sourceTree = "<group>"; };
+		D5AB67E476B2FB9BBB94F7D3BF6EDC0B /* SEGScreenPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGScreenPayload.m; path = Analytics/Classes/Integrations/SEGScreenPayload.m; sourceTree = "<group>"; };
+		DBCACB085E09127224ECB5A906BB5224 /* SEGStoreKitTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGStoreKitTracker.h; path = Analytics/Classes/Internal/SEGStoreKitTracker.h; sourceTree = "<group>"; };
+		E3AA3D865742724AB7BC23BE4732A052 /* Analytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-prefix.pch"; sourceTree = "<group>"; };
+		E5E9849A8DD98A6444D5577719878699 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01C4087F7133D7FB2114535112290B8 /* Pods_Segment_AurycSDK_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Segment_AurycSDK_iOS_Example.framework; path = "Pods-Segment-AurycSDK-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F082100BAAAAD9D6748C821402457FF2 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F50E758D9C6EC650BA6986EF60D26AED /* Pods-Segment-AurycSDK-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Segment-AurycSDK-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F3FF737ECFD229043975F1161A64BC25 /* SEGAurycSDKIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAurycSDKIntegration.h; path = "Segment-AurycSDK-iOS/Classes/SEGAurycSDKIntegration.h"; sourceTree = "<group>"; };
+		F4541A829E216F6F755CF007A4192F91 /* SEGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGUtils.m; path = Analytics/Classes/Internal/SEGUtils.m; sourceTree = "<group>"; };
+		F516FB1FCB19250D2BB9ED3446E9CF79 /* SEGTrackPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGTrackPayload.h; path = Analytics/Classes/Integrations/SEGTrackPayload.h; sourceTree = "<group>"; };
+		F590E75CC695DD3EDB285A5C9FC8D220 /* SEGPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGPayload.h; path = Analytics/Classes/Integrations/SEGPayload.h; sourceTree = "<group>"; };
+		F78EE17D11AD07E6FF78CF10F0B87B90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F8C1649E20CC386DA9F54474AAB8FA0C /* SEGAliasPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGAliasPayload.m; path = Analytics/Classes/Integrations/SEGAliasPayload.m; sourceTree = "<group>"; };
 		F8FBF422B46F7C6D707D1ABCA1D9C1BC /* Segment_AurycSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Segment_AurycSDK_iOS.framework; path = "Segment-AurycSDK-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA91B40A34AFBCD8893D5BFE0ED7AF83 /* SEGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGReachability.m; path = Analytics/Vendor/SEGReachability.m; sourceTree = "<group>"; };
+		FB100F327FDDDAC465C048FAE6BF58E1 /* Analytics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Analytics-Info.plist"; sourceTree = "<group>"; };
+		FF26D42BAC51435CB00A709D50C2C3D9 /* SEGUserDefaultsStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGUserDefaultsStorage.h; path = Analytics/Classes/Internal/SEGUserDefaultsStorage.h; sourceTree = "<group>"; };
+		FF85D9FA0347858FD14757728D60418B /* SEGAurycSDKIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAurycSDKIntegrationFactory.h; path = "Segment-AurycSDK-iOS/Classes/SEGAurycSDKIntegrationFactory.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44A88CE0A5A09F98633A9A280B8581F5 /* Frameworks */ = {
+		4C596FF0023DE227DDBC7ABC8F75D2AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1883CFE408F114A37A2EB536654C5ACE /* Foundation.framework in Frameworks */,
+				16E11F3DE2E16BDB01162FE779A7E773 /* Analytics.framework in Frameworks */,
+				22670426A127B737276D8122EFC13463 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C860B541F8E657B8E4BDF7D118DA2E5 /* Frameworks */ = {
+		756F12193C1E4CB41358012C7FDA2003 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF7D45AE5B682E7A2DB0EBA82126A85 /* Foundation.framework in Frameworks */,
+				DC0DFB3152B85667308804A33F2C89D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF101A1C4367AD22D597DA6F18559752 /* Frameworks */ = {
+		D5E5EE71306D070FC1DD6FC2106A6E27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E45A1A091A9ED4909D6355F22ED1B68 /* Foundation.framework in Frameworks */,
+				6767276328F17625D08771C5E730C069 /* CoreTelephony.framework in Frameworks */,
+				971B0235BF694BA74ED04913804FFFC7 /* Foundation.framework in Frameworks */,
+				58D8EB1CA8AA5E01E40ABD8DE806AF48 /* Security.framework in Frameworks */,
+				6C6D797E955DE10B1F6616B1CDD08FEF /* StoreKit.framework in Frameworks */,
+				3003F28FE9B73C33CDEC4EA8AD92662C /* SystemConfiguration.framework in Frameworks */,
+				0324BCE792BBCEAA7D89814C71A7CF62 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0928A10E140D2E29D2DF41CDD034E22C /* Pod */ = {
+		049A6DFAE70422531B43699F9F251EBE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB386296651F1271B57D08D57EB53F75 /* LICENSE */,
-				72554500927C5E05548980EDFE985F31 /* README.md */,
-				9B7F579469083101DECA28B00D579FCA /* Segment-AurycSDK-iOS.podspec */,
+				0591BB62A9A745E2DE9E9638FD1C9557 /* Segment-AurycSDK-iOS */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0FBEEC49DE166B7605C176FC638F30B3 /* Pods-Segment-AurycSDK-iOS_Example */ = {
+		0591BB62A9A745E2DE9E9638FD1C9557 /* Segment-AurycSDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				42CF78D68F156D9434F33EB5609B3E90 /* Pods-Segment-AurycSDK-iOS_Example.modulemap */,
-				F082100BAAAAD9D6748C821402457FF2 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown */,
-				C7A7730941D7E14B59DC84FABFA1826E /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist */,
-				6C42EC536CDA4BFAD98C641E5164DBF4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */,
-				F50E758D9C6EC650BA6986EF60D26AED /* Pods-Segment-AurycSDK-iOS_Example-frameworks.sh */,
-				D3CB4B8576D5B69235FDF169A16761BF /* Pods-Segment-AurycSDK-iOS_Example-Info.plist */,
-				C0A4EEACE97DF7410DD31E5C5B667254 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */,
-				CAC65B8C9C2AAD867FB4B955CD2E5BA7 /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */,
-				EE131C9CCEC78E3C7955D76175F26D39 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */,
-			);
-			name = "Pods-Segment-AurycSDK-iOS_Example";
-			path = "Target Support Files/Pods-Segment-AurycSDK-iOS_Example";
-			sourceTree = "<group>";
-		};
-		44EDF06556B35F63734B1FD6261F814D /* Segment-AurycSDK-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9E8598682FAC1A4D7386B4087EA5FC86 /* ReplaceMe.m */,
-				0928A10E140D2E29D2DF41CDD034E22C /* Pod */,
-				9936F71A9B38FE72355A6C9E332EB29F /* Support Files */,
+				F3FF737ECFD229043975F1161A64BC25 /* SEGAurycSDKIntegration.h */,
+				CE3FBC11F2DCD13D5E8DC5E8694EDE06 /* SEGAurycSDKIntegration.m */,
+				FF85D9FA0347858FD14757728D60418B /* SEGAurycSDKIntegrationFactory.h */,
+				87AD8923399DDF7EA3FAA39B001E2715 /* SEGAurycSDKIntegrationFactory.m */,
+				28581C13A66E8C129458FD147C703A3F /* Pod */,
+				AC1D413ACD5B43C92DA57349CEB2ED81 /* Support Files */,
 			);
 			name = "Segment-AurycSDK-iOS";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		5F44C6429849B7C8EC17706E0688CB18 /* Pods-Segment-AurycSDK-iOS_Tests */ = {
+		28581C13A66E8C129458FD147C703A3F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1E1C1CCFDD346658D26FF3A136853F19 /* Pods-Segment-AurycSDK-iOS_Tests.modulemap */,
-				D689D3458FB62C865032D7F2D22E7907 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.markdown */,
-				922858BDB61220753B8B3F7AAFC043F3 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.plist */,
-				2121123C397A8A84F29F914350C57AC6 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m */,
-				712B19CEAA65B6431F88C28CE150A8F0 /* Pods-Segment-AurycSDK-iOS_Tests-Info.plist */,
-				75BD7095C49D87064D41A6889D9BF815 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h */,
-				3F6A7D88815F2ECF7042A8EC385656FC /* Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig */,
-				D3E40BEDDD09C7F0A46DDB2A2D726AC8 /* Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig */,
+				7142FA7E463F310BB0EEBC46F24DBA4D /* LICENSE */,
+				40B4EE85682DD2C61BD47999F8EEFB41 /* README.md */,
+				7A21345CBC6A7D2E5EB0664DA8176A28 /* Segment-AurycSDK-iOS.podspec */,
 			);
-			name = "Pods-Segment-AurycSDK-iOS_Tests";
-			path = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		7054D5E00C1A213D6D98FC804921B0BE /* Targets Support Files */ = {
+		67620331D79E2A80A8B954EF2F20E31C /* Pods-Segment-AurycSDK-iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
-				0FBEEC49DE166B7605C176FC638F30B3 /* Pods-Segment-AurycSDK-iOS_Example */,
-				5F44C6429849B7C8EC17706E0688CB18 /* Pods-Segment-AurycSDK-iOS_Tests */,
+				492B927828C40024110399CCD70BD19D /* Pods-Segment-AurycSDK-iOS_Example.modulemap */,
+				13A5ADA7DB9C4FB3B374841EBC3536C1 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown */,
+				023EA876745913546F8F498D59F08DB2 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist */,
+				334E3EB9B87957274E72464583D19FAD /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */,
+				5BB8A63104462C2BEE4C6291F5AF9CC8 /* Pods-Segment-AurycSDK-iOS_Example-frameworks.sh */,
+				50104A6EC09B65101D536CC8F401B979 /* Pods-Segment-AurycSDK-iOS_Example-Info.plist */,
+				32942A7FA438F628B73D78E1A4A49B01 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */,
+				91E758122ED05722CB4AFD2440298D2E /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */,
+				7537F1913BF0B082601D08839F7DC0E4 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-Segment-AurycSDK-iOS_Example";
+			path = "Target Support Files/Pods-Segment-AurycSDK-iOS_Example";
+			sourceTree = "<group>";
+		};
+		825950F9162F774FFB2079BC8330AD3A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67620331D79E2A80A8B954EF2F20E31C /* Pods-Segment-AurycSDK-iOS_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9936F71A9B38FE72355A6C9E332EB29F /* Support Files */ = {
+		85D103D1FEF4C839A501FA6A7A3A59BF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9FCF3A21315247B23FC9ED9569CF31CC /* Segment-AurycSDK-iOS.modulemap */,
-				568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */,
-				80A283C3586D2532F590F33211F098DC /* Segment-AurycSDK-iOS-dummy.m */,
-				AD38A22C701D2E6F7F27630D22330DCE /* Segment-AurycSDK-iOS-Info.plist */,
-				0301F1B1CC7D83F0D12B288864D1082B /* Segment-AurycSDK-iOS-prefix.pch */,
-				E62542036F23B4058C4AE64DC9FFF809 /* Segment-AurycSDK-iOS-umbrella.h */,
+				72D015071838F1BFC1DAC74995711C48 /* CoreTelephony.framework */,
+				F78EE17D11AD07E6FF78CF10F0B87B90 /* Foundation.framework */,
+				544079F2C7F8F1B212B348B9E5CE28C9 /* Security.framework */,
+				00B4F809B8297E5FBEB65725D1990236 /* StoreKit.framework */,
+				93BFCFF593524DC17770239C2F9056D0 /* SystemConfiguration.framework */,
+				C1180FF9D0CF302C3E4A6A06F0179766 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Segment-AurycSDK-iOS";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		A5740E650EA809B67F4AC3518ED65996 /* Products */ = {
+		8A13313A8678AD65322A6038DAC448A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				2CE4B6165F426953A26419DF02AF0D93 /* Analytics.framework */,
 				F01C4087F7133D7FB2114535112290B8 /* Pods_Segment_AurycSDK_iOS_Example.framework */,
-				651EFA63FBD0182EACF36562F6349736 /* Pods_Segment_AurycSDK_iOS_Tests.framework */,
 				F8FBF422B46F7C6D707D1ABCA1D9C1BC /* Segment_AurycSDK_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		9F88C37199192554E1E2AE621D7A1C9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				BF0C80E52632CE9C0F82DAEF536570D0 /* Analytics */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC1D413ACD5B43C92DA57349CEB2ED81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				228FF51AAEA4BD09755ACD7DE27F2622 /* Segment-AurycSDK-iOS.modulemap */,
+				999FD9E9570AD0DDD6551DC13B8077C6 /* Segment-AurycSDK-iOS.xcconfig */,
+				77509D921236A2ED442A6BBEF5AAD9A9 /* Segment-AurycSDK-iOS-dummy.m */,
+				BFF2DDB4362F0195E72E47A7ADF02582 /* Segment-AurycSDK-iOS-Info.plist */,
+				7FE28616D39DE2161F46071D30FCF3CF /* Segment-AurycSDK-iOS-prefix.pch */,
+				77A34681C4854E2DB118E8C9C7EF0665 /* Segment-AurycSDK-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Segment-AurycSDK-iOS";
+			sourceTree = "<group>";
+		};
+		BF0C80E52632CE9C0F82DAEF536570D0 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				B5C78611F26BEDDBEAAD230613F5676C /* NSData+SEGGZIP.h */,
+				42C1E387CF7A8508C58900F94D7F869C /* NSData+SEGGZIP.m */,
+				2EEF4DFEDBCA28299AA62F29E9A3AC2D /* SEGAES256Crypto.h */,
+				989F58AD5A84DF1BFFBBE2A83A7BC5FA /* SEGAES256Crypto.m */,
+				6159F1B1594ABD631254F1FCC3F5375C /* SEGAliasPayload.h */,
+				F8C1649E20CC386DA9F54474AAB8FA0C /* SEGAliasPayload.m */,
+				60B865167B1EE301CA8D422701E641D5 /* SEGAnalytics.h */,
+				A5DC97DA4707EB39BF37FEA37D16E545 /* SEGAnalytics.m */,
+				5B0970BD7636C76890A20414955C5854 /* SEGAnalyticsConfiguration.h */,
+				B0A1D5CC06B45016F36123EFB9A07B5C /* SEGAnalyticsConfiguration.m */,
+				D543FA4134A323E72BA6DE3DB803A5A0 /* SEGAnalyticsUtils.h */,
+				335844C64143087AD3E8C2CE05E96854 /* SEGAnalyticsUtils.m */,
+				14CB9792AA9896C6FD5323B16B12EB68 /* SEGContext.h */,
+				AFFF3C21A91C7C54BC1120802D1ED602 /* SEGContext.m */,
+				8E90A735E2E6C0076F5AB605C0ED1C7F /* SEGCrypto.h */,
+				1DB827E69F5BE3C1D6343E2B3F565E6E /* SEGFileStorage.h */,
+				338E8FD0DDFC8DE02C8CC12DAAB8D9CA /* SEGFileStorage.m */,
+				380292D68F3F8B5A425AF8BE4194E073 /* SEGGroupPayload.h */,
+				13D9386A331592836B87D51E2E6D4997 /* SEGGroupPayload.m */,
+				8E8AAAEEF8F8D9EF695A69AB07981181 /* SEGHTTPClient.h */,
+				78A9FFF0A03749A690B1E35A4512DE08 /* SEGHTTPClient.m */,
+				A7648B9EE7B00488772D8DEAAB88DD9C /* SEGIdentifyPayload.h */,
+				9B08443FC767CDCD2F60B17370ACC891 /* SEGIdentifyPayload.m */,
+				9B1978BB9E2E25DF76676D5D4F27830F /* SEGIntegration.h */,
+				345566619A5D004C6563659CCA363A17 /* SEGIntegrationFactory.h */,
+				4AD823C1F5A86E23ABD2523B57D30C59 /* SEGIntegrationsManager.h */,
+				5AB56D827ADE0E0311D8A928039C0223 /* SEGIntegrationsManager.m */,
+				866A4B5B8C6E20E8D1367A9AF7730A19 /* SEGMiddleware.h */,
+				6A032883B507D57D411E8BC89AA13F38 /* SEGMiddleware.m */,
+				F590E75CC695DD3EDB285A5C9FC8D220 /* SEGPayload.h */,
+				27096BF49DDE719FDB7EA03040D059BE /* SEGPayload.m */,
+				369C165ECED231EDCAA579A7D7C7FBE2 /* SEGReachability.h */,
+				FA91B40A34AFBCD8893D5BFE0ED7AF83 /* SEGReachability.m */,
+				3B32687C7762BDE171C6055A05984CC9 /* SEGScreenPayload.h */,
+				D5AB67E476B2FB9BBB94F7D3BF6EDC0B /* SEGScreenPayload.m */,
+				699645C117E4019AE5C707DC77813A80 /* SEGSegmentIntegration.h */,
+				B8ED0F73D189233B4FF2B7FE0610FDBD /* SEGSegmentIntegration.m */,
+				6CB719FBA354FFFEA0B4493F39F5C54D /* SEGSegmentIntegrationFactory.h */,
+				4A7EE980DE161B025B6E028FEF35E285 /* SEGSegmentIntegrationFactory.m */,
+				71E40D0C9EE53B04FA0432B18B018BCE /* SEGSerializableValue.h */,
+				1A2C5B4038BA15046FE733E0CC2F9CC7 /* SEGStorage.h */,
+				DBCACB085E09127224ECB5A906BB5224 /* SEGStoreKitTracker.h */,
+				63CEDCDB71969779B8823A6F7AF2CC9E /* SEGStoreKitTracker.m */,
+				F516FB1FCB19250D2BB9ED3446E9CF79 /* SEGTrackPayload.h */,
+				47A716193124E2CE02C202CF05B837C1 /* SEGTrackPayload.m */,
+				FF26D42BAC51435CB00A709D50C2C3D9 /* SEGUserDefaultsStorage.h */,
+				BBCF8CDCD94821529B1B754E4F0F0D2E /* SEGUserDefaultsStorage.m */,
+				48F2096D264F3D04E770130196D30DD5 /* SEGUtils.h */,
+				F4541A829E216F6F755CF007A4192F91 /* SEGUtils.m */,
+				BB2DA87DD4F4B649404213F4A67ED30F /* UIViewController+SEGScreen.h */,
+				4330132F8E1A5B5D79B174FEE23C5F4A /* UIViewController+SEGScreen.m */,
+				E6A2CE4F0EDAC0A45B8C0E6C4538E4A1 /* Support Files */,
+			);
+			name = Analytics;
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		C8A1F7B2D0240CC4A96AD4B61F9DAF83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9849A8DD98A6444D5577719878699 /* Analytics.framework */,
+				85D103D1FEF4C839A501FA6A7A3A59BF /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E55A75B59411A17C20C21D906E50EB23 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A5740E650EA809B67F4AC3518ED65996 /* Products */,
-				7054D5E00C1A213D6D98FC804921B0BE /* Targets Support Files */,
+				049A6DFAE70422531B43699F9F251EBE /* Development Pods */,
+				C8A1F7B2D0240CC4A96AD4B61F9DAF83 /* Frameworks */,
+				9F88C37199192554E1E2AE621D7A1C9E /* Pods */,
+				8A13313A8678AD65322A6038DAC448A2 /* Products */,
+				825950F9162F774FFB2079BC8330AD3A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E6A2CE4F0EDAC0A45B8C0E6C4538E4A1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				B9EDD2CA89E4F5F69397C36593532E97 /* Analytics.modulemap */,
+				A140AC67269E2C07304DDB11BF8D16FA /* Analytics.xcconfig */,
+				0C973DD4D832A963249DDB608E3D03FD /* Analytics-dummy.m */,
+				FB100F327FDDDAC465C048FAE6BF58E1 /* Analytics-Info.plist */,
+				E3AA3D865742724AB7BC23BE4732A052 /* Analytics-prefix.pch */,
+				9CA92B99D24B6D3415C9DB103BB7EC5A /* Analytics-umbrella.h */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E55A75B59411A17C20C21D906E50EB23 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				44EDF06556B35F63734B1FD6261F814D /* Segment-AurycSDK-iOS */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/Analytics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5514A70A14EB64DC03F695F9117E4C8E /* Headers */ = {
+		0EB722201337BCFCE6722E97986AF092 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F45EE8D154C3206A2B23A5A5D8DC171 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h in Headers */,
+				1CBFBFAB3A2CBB46CB1CE442E7A03C84 /* Analytics-umbrella.h in Headers */,
+				841E24D0AF5C0B8485576D3C8AB6E2DA /* NSData+SEGGZIP.h in Headers */,
+				FCFD5F9D8264C0F4EB7A08EA374696AD /* SEGAES256Crypto.h in Headers */,
+				61268F0616C261A1516729CFA4ABF10E /* SEGAliasPayload.h in Headers */,
+				4630C5C9C6454B7354B2DDC4C061FC72 /* SEGAnalytics.h in Headers */,
+				261E61B46FAE966287387E6151CDCA61 /* SEGAnalyticsConfiguration.h in Headers */,
+				288538A74C9C2BF5FE023932C9AAAAD2 /* SEGAnalyticsUtils.h in Headers */,
+				FF9A923E8488E25804172CBBE68CF809 /* SEGContext.h in Headers */,
+				8EF840205203833009271CB3D0203371 /* SEGCrypto.h in Headers */,
+				DF806385F573BF037E9C48EA1096964E /* SEGFileStorage.h in Headers */,
+				6C7294F18F07094D8F933596DB5EF30D /* SEGGroupPayload.h in Headers */,
+				5D39E99AA122E44AE78B9D15C0A1D71F /* SEGHTTPClient.h in Headers */,
+				8246F73E4A1615A0B0C8C1D1966A2DA1 /* SEGIdentifyPayload.h in Headers */,
+				1D998FA81A7384756482F055619879D8 /* SEGIntegration.h in Headers */,
+				3C82DFB36EC0432629A2BD33180E83F9 /* SEGIntegrationFactory.h in Headers */,
+				B7A1826AEBD6EC83A52D7C5F05FA9B6D /* SEGIntegrationsManager.h in Headers */,
+				70D0A707D25628CFBC6737B7ED48724F /* SEGMiddleware.h in Headers */,
+				2100B6C6064764844E170B166B2BEBCF /* SEGPayload.h in Headers */,
+				580F8FEBCC0AB691D807790DD255BE56 /* SEGReachability.h in Headers */,
+				E273D76DE74EA4B69A8271E8758203B1 /* SEGScreenPayload.h in Headers */,
+				EF37AE8AF3CB45FF665F9AEC8332A4BC /* SEGSegmentIntegration.h in Headers */,
+				016DEFC011D48933CE608CD77C226BCB /* SEGSegmentIntegrationFactory.h in Headers */,
+				B66A21BC2FCA32342E150B093D885611 /* SEGSerializableValue.h in Headers */,
+				D337266C718308BE5F09F3DEEB14F28E /* SEGStorage.h in Headers */,
+				B00767D68E0F4B086B2C05C73D1CCE00 /* SEGStoreKitTracker.h in Headers */,
+				2A27ECC7375D7A60FB349D1DEF97D209 /* SEGTrackPayload.h in Headers */,
+				1771FB5831C64D1663848033A4F7164B /* SEGUserDefaultsStorage.h in Headers */,
+				39DE7EFA0BAD588A3607B69C46778B22 /* SEGUtils.h in Headers */,
+				16AC0D40B9B6CD6B8B6E8B1A46A10984 /* UIViewController+SEGScreen.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC8DDD62BBC6AA158D4F23C7F4E2BE53 /* Headers */ = {
+		9BAC909DDD579020666A4A6C3DEEB1B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96351AAD7EBC61592008CEC1DA3F2836 /* Segment-AurycSDK-iOS-umbrella.h in Headers */,
+				F7C184767C5C3B116DC6AE853310F4F2 /* SEGAurycSDKIntegration.h in Headers */,
+				A7150EB6D6A2CF8D3E9802ADB892C472 /* SEGAurycSDKIntegrationFactory.h in Headers */,
+				563A656ED8ADE135BFB0D79A3D53365B /* Segment-AurycSDK-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE293EAE2C25A5A34BCFE951DEFA5846 /* Headers */ = {
+		F7F027EA1560595865C217ED04A07F71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC0A4C1655E8FC5EB82454383E1B372 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h in Headers */,
+				D63AB88767CDBB609D7E1FFF77CFE8D6 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,16 +489,17 @@
 /* Begin PBXNativeTarget section */
 		02AFA38FFF068FAE7F7F492CDE600CDE /* Segment-AurycSDK-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F7079F9645052B1CEB1222B7F4BA76 /* Build configuration list for PBXNativeTarget "Segment-AurycSDK-iOS" */;
+			buildConfigurationList = C292A334F7722BA6FCDCE846379C67D7 /* Build configuration list for PBXNativeTarget "Segment-AurycSDK-iOS" */;
 			buildPhases = (
-				BC8DDD62BBC6AA158D4F23C7F4E2BE53 /* Headers */,
-				7A0112FF2D1E111FBD1CE82907C2309F /* Sources */,
-				8C860B541F8E657B8E4BDF7D118DA2E5 /* Frameworks */,
-				947DE9BA44E277E593A0C87BDFA0C08B /* Resources */,
+				9BAC909DDD579020666A4A6C3DEEB1B3 /* Headers */,
+				D8316B36F5238FDBBA00016532B30B93 /* Sources */,
+				4C596FF0023DE227DDBC7ABC8F75D2AC /* Frameworks */,
+				25367416C77F149A6B626C157183536C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				333A9B66F9C26A658D0631997015BA70 /* PBXTargetDependency */,
 			);
 			name = "Segment-AurycSDK-iOS";
 			productName = "Segment-AurycSDK-iOS";
@@ -271,40 +508,40 @@
 		};
 		6C760FBA4D09C48E62A1D65CFD00BED5 /* Pods-Segment-AurycSDK-iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C957AB95191C9E3D71F99CEE31C2630 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Example" */;
+			buildConfigurationList = 5EA7B8A73C865C4428F24CC29992E35D /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Example" */;
 			buildPhases = (
-				5514A70A14EB64DC03F695F9117E4C8E /* Headers */,
-				5011A5C834023BAC3EEB5369D6D66A11 /* Sources */,
-				BF101A1C4367AD22D597DA6F18559752 /* Frameworks */,
-				1E5D68583809AC9B1782F87BBC7E3906 /* Resources */,
+				F7F027EA1560595865C217ED04A07F71 /* Headers */,
+				F4632A2884EF9DC72846E26EAD5AADA4 /* Sources */,
+				756F12193C1E4CB41358012C7FDA2003 /* Frameworks */,
+				81F1E05E418630959B1A9B69601D3046 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F87291C7B436636056B82C0063A62D19 /* PBXTargetDependency */,
+				0640AE6A34D1EA9FD966F1ED96D57A62 /* PBXTargetDependency */,
+				708F032D9BBA320E987541AEBDA3D362 /* PBXTargetDependency */,
 			);
 			name = "Pods-Segment-AurycSDK-iOS_Example";
 			productName = "Pods-Segment-AurycSDK-iOS_Example";
 			productReference = F01C4087F7133D7FB2114535112290B8 /* Pods_Segment_AurycSDK_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CDA548B72E82ECED98D1AD21D2B31B40 /* Pods-Segment-AurycSDK-iOS_Tests */ = {
+		8F50A15C556FFEAD343B69C7EA54092F /* Analytics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E245B20B3518E2039541908532A7BA8 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Tests" */;
+			buildConfigurationList = 1C4BDC6EA66D66C68793C05FF5746992 /* Build configuration list for PBXNativeTarget "Analytics" */;
 			buildPhases = (
-				EE293EAE2C25A5A34BCFE951DEFA5846 /* Headers */,
-				9D18CFDB4410C7A3188F31A63C670B29 /* Sources */,
-				44A88CE0A5A09F98633A9A280B8581F5 /* Frameworks */,
-				14A2CF26B2A030A2B16A1E0F4D97A374 /* Resources */,
+				0EB722201337BCFCE6722E97986AF092 /* Headers */,
+				0FB7E00CCF1FC58DF6D50B846D4EED11 /* Sources */,
+				D5E5EE71306D070FC1DD6FC2106A6E27 /* Frameworks */,
+				D896E0845EA59D41527E9BBE12496766 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDBA250FC49D6672E4BF508CE6969665 /* PBXTargetDependency */,
 			);
-			name = "Pods-Segment-AurycSDK-iOS_Tests";
-			productName = "Pods-Segment-AurycSDK-iOS_Tests";
-			productReference = 651EFA63FBD0182EACF36562F6349736 /* Pods_Segment_AurycSDK_iOS_Tests.framework */;
+			name = Analytics;
+			productName = Analytics;
+			productReference = 2CE4B6165F426953A26419DF02AF0D93 /* Analytics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,33 +562,33 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A5740E650EA809B67F4AC3518ED65996 /* Products */;
+			productRefGroup = 8A13313A8678AD65322A6038DAC448A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				8F50A15C556FFEAD343B69C7EA54092F /* Analytics */,
 				6C760FBA4D09C48E62A1D65CFD00BED5 /* Pods-Segment-AurycSDK-iOS_Example */,
-				CDA548B72E82ECED98D1AD21D2B31B40 /* Pods-Segment-AurycSDK-iOS_Tests */,
 				02AFA38FFF068FAE7F7F492CDE600CDE /* Segment-AurycSDK-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14A2CF26B2A030A2B16A1E0F4D97A374 /* Resources */ = {
+		25367416C77F149A6B626C157183536C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E5D68583809AC9B1782F87BBC7E3906 /* Resources */ = {
+		81F1E05E418630959B1A9B69601D3046 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		947DE9BA44E277E593A0C87BDFA0C08B /* Resources */ = {
+		D896E0845EA59D41527E9BBE12496766 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,86 +598,82 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5011A5C834023BAC3EEB5369D6D66A11 /* Sources */ = {
+		0FB7E00CCF1FC58DF6D50B846D4EED11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00DEBC587193EA00CA2E90648E9B684F /* Pods-Segment-AurycSDK-iOS_Example-dummy.m in Sources */,
+				DB35DE82F8EEC8D6E7CCD06B036AA584 /* Analytics-dummy.m in Sources */,
+				23CDE292C19FE144F63D5ABAE26E7E86 /* NSData+SEGGZIP.m in Sources */,
+				A0378EF7756C304765F79443ED318C18 /* SEGAES256Crypto.m in Sources */,
+				A3BED668E2DBD4320704A1B7B281713A /* SEGAliasPayload.m in Sources */,
+				A34091E818C633E3C6EFBF269032E502 /* SEGAnalytics.m in Sources */,
+				26C797F478AD450003AF011115A5E697 /* SEGAnalyticsConfiguration.m in Sources */,
+				9165A8F831FB3B66B3AA84678AE3FA6B /* SEGAnalyticsUtils.m in Sources */,
+				19C5F4992EAD9CFF33ADC4D741865AFC /* SEGContext.m in Sources */,
+				9C8540AAD22B061E2190824BF81B54FE /* SEGFileStorage.m in Sources */,
+				57FBFF6B31A9CA5846AAAC0D3C9EC059 /* SEGGroupPayload.m in Sources */,
+				9882409BD02AD5D13CB8EEF755EF634E /* SEGHTTPClient.m in Sources */,
+				7A2E927DD0A51F365BC2F7360C6A0F17 /* SEGIdentifyPayload.m in Sources */,
+				6A3A0F4006903165C202B2C593E04EF7 /* SEGIntegrationsManager.m in Sources */,
+				41F3A47D2A6F7FBD88A1CBCCC47A769E /* SEGMiddleware.m in Sources */,
+				5894C6ED52D0C1DC487795734230EC72 /* SEGPayload.m in Sources */,
+				FF1F6D65D5B23DD5205AB95D3075765B /* SEGReachability.m in Sources */,
+				58E7E64422D87B75C174BCE2F2C01C73 /* SEGScreenPayload.m in Sources */,
+				7D5F329D3047CC981666A1E222F376BA /* SEGSegmentIntegration.m in Sources */,
+				D43E9F1E6FF7C40A49A66D76578D97C9 /* SEGSegmentIntegrationFactory.m in Sources */,
+				D5C061257AEDA75EE2457E0BF640F592 /* SEGStoreKitTracker.m in Sources */,
+				2787BC674AD9478982563FF0D05A471A /* SEGTrackPayload.m in Sources */,
+				56BA6C4555ABD4638DBE2C12EBFF2A2C /* SEGUserDefaultsStorage.m in Sources */,
+				F414B63167E12864022BF68C218921B5 /* SEGUtils.m in Sources */,
+				EFA99E6839AC03D94497556D7BAF6602 /* UIViewController+SEGScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A0112FF2D1E111FBD1CE82907C2309F /* Sources */ = {
+		D8316B36F5238FDBBA00016532B30B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527ED2F991F162BC932E995123D6933A /* ReplaceMe.m in Sources */,
-				DAA83CD33EA74FCF653414C4A229E86A /* Segment-AurycSDK-iOS-dummy.m in Sources */,
+				AC2F9FE379EA010F79C3EC4DE9C53C16 /* SEGAurycSDKIntegration.m in Sources */,
+				6D406F93789A432C71FE7AFFF78443B3 /* SEGAurycSDKIntegrationFactory.m in Sources */,
+				B9222104F894B370B95DEAE860136A32 /* Segment-AurycSDK-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D18CFDB4410C7A3188F31A63C670B29 /* Sources */ = {
+		F4632A2884EF9DC72846E26EAD5AADA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0800C3BC21AA96469A134DE987112867 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m in Sources */,
+				804916D38B81E5C5546B90113A735AD4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BDBA250FC49D6672E4BF508CE6969665 /* PBXTargetDependency */ = {
+		0640AE6A34D1EA9FD966F1ED96D57A62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Segment-AurycSDK-iOS_Example";
-			target = 6C760FBA4D09C48E62A1D65CFD00BED5 /* Pods-Segment-AurycSDK-iOS_Example */;
-			targetProxy = 939ED363B5AFC737DFDB09C204009C87 /* PBXContainerItemProxy */;
+			name = Analytics;
+			target = 8F50A15C556FFEAD343B69C7EA54092F /* Analytics */;
+			targetProxy = 39FB70F8133D50D3A6A08EFC00916BD6 /* PBXContainerItemProxy */;
 		};
-		F87291C7B436636056B82C0063A62D19 /* PBXTargetDependency */ = {
+		333A9B66F9C26A658D0631997015BA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Analytics;
+			target = 8F50A15C556FFEAD343B69C7EA54092F /* Analytics */;
+			targetProxy = 38F8D0680043B98D68C6189C3BDB9F2C /* PBXContainerItemProxy */;
+		};
+		708F032D9BBA320E987541AEBDA3D362 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Segment-AurycSDK-iOS";
 			target = 02AFA38FFF068FAE7F7F492CDE600CDE /* Segment-AurycSDK-iOS */;
-			targetProxy = 0910EE2AFFEF7E523F598A3A394BD603 /* PBXContainerItemProxy */;
+			targetProxy = 3598EF08CAD3A7AF0A1E311F7FAD2F81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		30FFAF3E29B052FB842CCC99EAD048DE /* Release */ = {
+		0607FDCF3063900815D0C87EBF5B887E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3E40BEDDD09C7F0A46DDB2A2D726AC8 /* Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3D95EBE2C3435216DB93957B7BB8F293 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */;
+			baseConfigurationReference = 999FD9E9570AD0DDD6551DC13B8077C6 /* Segment-AurycSDK-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -530,9 +763,9 @@
 			};
 			name = Release;
 		};
-		54E8C4BFC11100D482B2FFDC7E73AF54 /* Debug */ = {
+		7C635BA8ABE7524852B89982740F5809 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */;
+			baseConfigurationReference = A140AC67269E2C07304DDB11BF8D16FA /* Analytics.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -543,56 +776,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Analytics-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS.modulemap";
-				PRODUCT_MODULE_NAME = Segment_AurycSDK_iOS;
-				PRODUCT_NAME = Segment_AurycSDK_iOS;
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				PRODUCT_MODULE_NAME = Analytics;
+				PRODUCT_NAME = Analytics;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		63F1078A306BCAC38044E37C8A328843 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F6A7D88815F2ECF7042A8EC385656FC /* Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -658,9 +859,40 @@
 			};
 			name = Debug;
 		};
-		826BD7A24980971AFE8DBBCB018DAAE0 /* Release */ = {
+		80234C109EB56EC3E7645A3D9AA05BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE131C9CCEC78E3C7955D76175F26D39 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */;
+			baseConfigurationReference = 999FD9E9570AD0DDD6551DC13B8077C6 /* Segment-AurycSDK-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Segment_AurycSDK_iOS;
+				PRODUCT_NAME = Segment_AurycSDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9732378FC5930A246C8C764D251289CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7537F1913BF0B082601D08839F7DC0E4 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -692,9 +924,9 @@
 			};
 			name = Release;
 		};
-		99218FAC76018B7B1F83E95406228E0F /* Debug */ = {
+		AEB7A65345DAA5E96237992E60BB9467 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAC65B8C9C2AAD867FB4B955CD2E5BA7 /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */;
+			baseConfigurationReference = 91E758122ED05722CB4AFD2440298D2E /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -725,14 +957,45 @@
 			};
 			name = Debug;
 		};
+		E0F773C2F10B50DFE7A960A323DC26AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A140AC67269E2C07304DDB11BF8D16FA /* Analytics.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Analytics/Analytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Analytics/Analytics.modulemap";
+				PRODUCT_MODULE_NAME = Analytics;
+				PRODUCT_NAME = Analytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E245B20B3518E2039541908532A7BA8 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Tests" */ = {
+		1C4BDC6EA66D66C68793C05FF5746992 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63F1078A306BCAC38044E37C8A328843 /* Debug */,
-				30FFAF3E29B052FB842CCC99EAD048DE /* Release */,
+				E0F773C2F10B50DFE7A960A323DC26AD /* Debug */,
+				7C635BA8ABE7524852B89982740F5809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,20 +1009,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C957AB95191C9E3D71F99CEE31C2630 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Example" */ = {
+		5EA7B8A73C865C4428F24CC29992E35D /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99218FAC76018B7B1F83E95406228E0F /* Debug */,
-				826BD7A24980971AFE8DBBCB018DAAE0 /* Release */,
+				AEB7A65345DAA5E96237992E60BB9467 /* Debug */,
+				9732378FC5930A246C8C764D251289CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0F7079F9645052B1CEB1222B7F4BA76 /* Build configuration list for PBXNativeTarget "Segment-AurycSDK-iOS" */ = {
+		C292A334F7722BA6FCDCE846379C67D7 /* Build configuration list for PBXNativeTarget "Segment-AurycSDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54E8C4BFC11100D482B2FFDC7E73AF54 /* Debug */,
-				3D95EBE2C3435216DB93957B7BB8F293 /* Release */,
+				80234C109EB56EC3E7645A3D9AA05BC3 /* Debug */,
+				0607FDCF3063900815D0C87EBF5B887E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

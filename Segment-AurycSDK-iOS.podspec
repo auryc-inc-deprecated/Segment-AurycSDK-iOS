@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Segment-AurycSDK-iOS'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of Segment-AurycSDK-iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/azelaya6/Segment-AurycSDK-iOS'
+  s.homepage         = 'https://auryc.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'azelaya6' => 'alcideszelaya@hotmail.com' }
-  s.source           = { :git => 'https://github.com/azelaya6/Segment-AurycSDK-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/auryc-inc/Segment-AurycSDK-iOS.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Segment-AurycSDK-iOS/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Segment-AurycSDK-iOS' => ['Segment-AurycSDK-iOS/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Analytics', '~> 3.0'
 end

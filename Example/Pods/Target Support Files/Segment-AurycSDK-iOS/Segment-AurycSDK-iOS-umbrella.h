@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "SEGAurycSDKIntegration.h"
+#import "SEGAurycSDKIntegrationFactory.h"
 
 FOUNDATION_EXPORT double Segment_AurycSDK_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char Segment_AurycSDK_iOSVersionString[];

@@ -1,16 +1,24 @@
 PODS:
-  - Segment-AurycSDK-iOS (0.1.0)
+  - Analytics (3.7.0)
+  - Segment-AurycSDK-iOS (1.0.0):
+    - Analytics (~> 3.0)
 
 DEPENDENCIES:
+  - Analytics (~> 3.0)
   - Segment-AurycSDK-iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Analytics
 
 EXTERNAL SOURCES:
   Segment-AurycSDK-iOS:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Segment-AurycSDK-iOS: 9c9da2018f0cec4ec202eb221549024fc04cdb50
+  Analytics: 77fd5fb102a4a5eedafa2c2b0245ceb7b7c15e45
+  Segment-AurycSDK-iOS: dd7d504764fa3775a493554379cb087a14844b6e
 
-PODFILE CHECKSUM: f0de54a5a53ea8d688e2ce2c7c01cc43ff02c27c
+PODFILE CHECKSUM: e7775b20208e7a5929d64d8f847056d0311b1782
 
 COCOAPODS: 1.8.4
