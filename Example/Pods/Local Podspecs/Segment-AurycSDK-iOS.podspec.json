@@ -14,13 +14,17 @@
   "source": {
     "git": "https://github.com/auryc-inc/Segment-AurycSDK-iOS.git"
   },
+  "static_framework": true,
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "Segment-AurycSDK-iOS/Classes/**/*",
   "dependencies": {
     "Analytics": [
       "~> 3.0"
+    ],
+    "AurycSDK": [
+
     ]
   }
 }

@@ -1,10 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'Segment-AurycSDK-iOS_Example' do
   
   pod 'Analytics', '~> 3.0'
   pod 'Segment-AurycSDK-iOS', :path => '../'
+  
+  pod 'AurycSDK', :path => '/Users/alcides.zelaya/Documents/Auryc/auryc-ios-sdk'
 
 end

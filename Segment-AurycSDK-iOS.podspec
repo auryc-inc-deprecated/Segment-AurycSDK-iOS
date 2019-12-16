@@ -28,8 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/auryc-inc/Segment-AurycSDK-iOS.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.static_framework = true
+  s.ios.deployment_target = "9.0"
   s.source_files = 'Segment-AurycSDK-iOS/Classes/**/*'
+
   s.dependency 'Analytics', '~> 3.0'
+  s.dependency 'AurycSDK'
 end

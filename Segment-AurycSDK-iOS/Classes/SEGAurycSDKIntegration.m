@@ -6,6 +6,7 @@
 //
 
 #import "SEGAurycSDKIntegration.h"
+#import <AurycSDK/Auryc.h>
 
 @implementation SEGAurycSDKIntegration
 
@@ -16,16 +17,23 @@
         
         NSString *siteId = [settings objectForKey:@"aurycsdk_siteid"];
         NSString *accessToken = [settings objectForKey:@"aurycsdk_acess_token"];
+        NSNumber *dev = [settings objectForKey:@"aurycsdk_dev"];
+        
+        // uncomment for dev
+        siteId = @"683-ios-sdk-testing-appcom";
+        accessToken = @"2fce833906813c50c736d874db0e0bfb";
+        dev = [NSNumber numberWithBool:YES];
+        
         
         if (![siteId isKindOfClass:[NSString class]] || [siteId length] == 0 || ![accessToken isKindOfClass:[NSString class]] || [accessToken length] == 0) {
             return nil;
         }
         
         if ([NSThread isMainThread]) {
-            [self launchWithSiteId:siteId token:accessToken];
+            [self launchWithSiteId:siteId token:accessToken dev:dev.boolValue];
         } else {
             dispatch_sync(dispatch_get_main_queue(), ^{
-                [self launchWithSiteId:siteId token:accessToken];
+                [self launchWithSiteId:siteId token:accessToken dev:dev.boolValue];
             });
         }
     }
@@ -33,8 +41,7 @@
     return self;
 }
 
-- (void)launchWithSiteId:(NSString *)siteId token:(NSString *)token {
-//    [CleverTap setCredentialsWithAccountID:accountID token:accountToken region:region];
-//    [[CleverTap sharedInstance] notifyApplicationLaunchedWithOptions:nil];
+- (void)launchWithSiteId:(NSString *)siteId token:(NSString *)token dev:(BOOL)dev {
+    [Auryc initialize:token siteId:siteId development:dev];
 }
 @end
