@@ -29,7 +29,7 @@
 }
 
 - (NSString *)key {
-    return @"Segment.io";
+    return @"AurycSDK-iOS";
 }
 
 

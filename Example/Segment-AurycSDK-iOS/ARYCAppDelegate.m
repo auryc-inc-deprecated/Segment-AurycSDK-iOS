@@ -16,7 +16,7 @@
 {
     // Override point for customization after application launch.
     
-    SEGAnalyticsConfiguration *configuration = [SEGAnalyticsConfiguration configurationWithWriteKey:@"iKH2B9EtGG5yuuka8smFO8bLETdkjBje"];
+    SEGAnalyticsConfiguration *configuration = [SEGAnalyticsConfiguration configurationWithWriteKey:@"EEZO2vF3YPp62l0cYfyNaWBE5MDyixTZ"];
 
     // Enable this to record certain application events automatically!
     configuration.trackApplicationLifecycleEvents = YES;

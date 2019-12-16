@@ -20,9 +20,9 @@
         NSNumber *dev = [settings objectForKey:@"aurycsdk_dev"];
         
         // uncomment for dev
-        siteId = @"683-ios-sdk-testing-appcom";
-        accessToken = @"2fce833906813c50c736d874db0e0bfb";
-        dev = [NSNumber numberWithBool:YES];
+//        siteId = @"683-ios-sdk-testing-appcom";
+//        accessToken = @"2fce833906813c50c736d874db0e0bfb";
+//        dev = [NSNumber numberWithBool:YES];
         
         
         if (![siteId isKindOfClass:[NSString class]] || [siteId length] == 0 || ![accessToken isKindOfClass:[NSString class]] || [accessToken length] == 0) {
@@ -43,5 +43,13 @@
 
 - (void)launchWithSiteId:(NSString *)siteId token:(NSString *)token dev:(BOOL)dev {
     [Auryc initialize:token siteId:siteId development:dev];
+}
+
+- (void)track:(SEGTrackPayload *)payload {
+    [[Auryc mainInstance] track:payload.event properties:payload.properties];
+}
+
+- (void)identify:(SEGIdentifyPayload *)payload {
+    [[Auryc mainInstance] identify:payload.userId];
 }
 @end

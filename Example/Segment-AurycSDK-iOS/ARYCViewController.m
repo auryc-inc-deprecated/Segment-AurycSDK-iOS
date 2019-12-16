@@ -7,6 +7,7 @@
 //
 
 #import "ARYCViewController.h"
+#import <Analytics/SEGAnalytics.h>
 
 @interface ARYCViewController ()
 
@@ -17,13 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    [[SEGAnalytics sharedAnalytics] track:@"SEGAurycSDK Integration Track Test" properties:@{@"Property 1": @"value 1",
+                                                                                             @"Number Property": [NSNumber numberWithFloat:19.89]
+    }];
+    
+    [[SEGAnalytics sharedAnalytics] identify:@"SEGAurycSDK Integration Identify Test"];
 }
 
 @end
