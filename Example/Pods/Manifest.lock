@@ -1,0 +1,16 @@
+PODS:
+  - Segment-AurycSDK-iOS (0.1.0)
+
+DEPENDENCIES:
+  - Segment-AurycSDK-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  Segment-AurycSDK-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Segment-AurycSDK-iOS: 9c9da2018f0cec4ec202eb221549024fc04cdb50
+
+PODFILE CHECKSUM: f0de54a5a53ea8d688e2ce2c7c01cc43ff02c27c
+
+COCOAPODS: 1.8.4

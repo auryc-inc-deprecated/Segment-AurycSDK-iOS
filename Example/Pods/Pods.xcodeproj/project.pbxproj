@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DEBC587193EA00CA2E90648E9B684F /* Pods-Segment-AurycSDK-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C42EC536CDA4BFAD98C641E5164DBF4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */; };
+		0800C3BC21AA96469A134DE987112867 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2121123C397A8A84F29F914350C57AC6 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m */; };
+		1883CFE408F114A37A2EB536654C5ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2BC0A4C1655E8FC5EB82454383E1B372 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BD7095C49D87064D41A6889D9BF815 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527ED2F991F162BC932E995123D6933A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8598682FAC1A4D7386B4087EA5FC86 /* ReplaceMe.m */; };
+		6E45A1A091A9ED4909D6355F22ED1B68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8F45EE8D154C3206A2B23A5A5D8DC171 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A4EEACE97DF7410DD31E5C5B667254 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96351AAD7EBC61592008CEC1DA3F2836 /* Segment-AurycSDK-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E62542036F23B4058C4AE64DC9FFF809 /* Segment-AurycSDK-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA83CD33EA74FCF653414C4A229E86A /* Segment-AurycSDK-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A283C3586D2532F590F33211F098DC /* Segment-AurycSDK-iOS-dummy.m */; };
+		DFF7D45AE5B682E7A2DB0EBA82126A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0910EE2AFFEF7E523F598A3A394BD603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AFA38FFF068FAE7F7F492CDE600CDE;
+			remoteInfo = "Segment-AurycSDK-iOS";
+		};
+		939ED363B5AFC737DFDB09C204009C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C760FBA4D09C48E62A1D65CFD00BED5;
+			remoteInfo = "Pods-Segment-AurycSDK-iOS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0301F1B1CC7D83F0D12B288864D1082B /* Segment-AurycSDK-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-AurycSDK-iOS-prefix.pch"; sourceTree = "<group>"; };
+		1E1C1CCFDD346658D26FF3A136853F19 /* Pods-Segment-AurycSDK-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Segment-AurycSDK-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		2121123C397A8A84F29F914350C57AC6 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segment-AurycSDK-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F6A7D88815F2ECF7042A8EC385656FC /* Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		42CF78D68F156D9434F33EB5609B3E90 /* Pods-Segment-AurycSDK-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Segment-AurycSDK-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Segment-AurycSDK-iOS.xcconfig"; sourceTree = "<group>"; };
+		651EFA63FBD0182EACF36562F6349736 /* Pods_Segment_AurycSDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Segment_AurycSDK_iOS_Tests.framework; path = "Pods-Segment-AurycSDK-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C42EC536CDA4BFAD98C641E5164DBF4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Segment-AurycSDK-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		712B19CEAA65B6431F88C28CE150A8F0 /* Pods-Segment-AurycSDK-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		72554500927C5E05548980EDFE985F31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75BD7095C49D87064D41A6889D9BF815 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Segment-AurycSDK-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		80A283C3586D2532F590F33211F098DC /* Segment-AurycSDK-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segment-AurycSDK-iOS-dummy.m"; sourceTree = "<group>"; };
+		922858BDB61220753B8B3F7AAFC043F3 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B7F579469083101DECA28B00D579FCA /* Segment-AurycSDK-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Segment-AurycSDK-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8598682FAC1A4D7386B4087EA5FC86 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "Segment-AurycSDK-iOS/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		9FCF3A21315247B23FC9ED9569CF31CC /* Segment-AurycSDK-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Segment-AurycSDK-iOS.modulemap"; sourceTree = "<group>"; };
+		AD38A22C701D2E6F7F27630D22330DCE /* Segment-AurycSDK-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segment-AurycSDK-iOS-Info.plist"; sourceTree = "<group>"; };
+		BB386296651F1271B57D08D57EB53F75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C0A4EEACE97DF7410DD31E5C5B667254 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Segment-AurycSDK-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7A7730941D7E14B59DC84FABFA1826E /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAC65B8C9C2AAD867FB4B955CD2E5BA7 /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3CB4B8576D5B69235FDF169A16761BF /* Pods-Segment-AurycSDK-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Segment-AurycSDK-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		D3E40BEDDD09C7F0A46DDB2A2D726AC8 /* Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D689D3458FB62C865032D7F2D22E7907 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E62542036F23B4058C4AE64DC9FFF809 /* Segment-AurycSDK-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segment-AurycSDK-iOS-umbrella.h"; sourceTree = "<group>"; };
+		EE131C9CCEC78E3C7955D76175F26D39 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Segment-AurycSDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F01C4087F7133D7FB2114535112290B8 /* Pods_Segment_AurycSDK_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Segment_AurycSDK_iOS_Example.framework; path = "Pods-Segment-AurycSDK-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F082100BAAAAD9D6748C821402457FF2 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F50E758D9C6EC650BA6986EF60D26AED /* Pods-Segment-AurycSDK-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Segment-AurycSDK-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F8FBF422B46F7C6D707D1ABCA1D9C1BC /* Segment_AurycSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Segment_AurycSDK_iOS.framework; path = "Segment-AurycSDK-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A88CE0A5A09F98633A9A280B8581F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883CFE408F114A37A2EB536654C5ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C860B541F8E657B8E4BDF7D118DA2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF7D45AE5B682E7A2DB0EBA82126A85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF101A1C4367AD22D597DA6F18559752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E45A1A091A9ED4909D6355F22ED1B68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0928A10E140D2E29D2DF41CDD034E22C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB386296651F1271B57D08D57EB53F75 /* LICENSE */,
+				72554500927C5E05548980EDFE985F31 /* README.md */,
+				9B7F579469083101DECA28B00D579FCA /* Segment-AurycSDK-iOS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0FBEEC49DE166B7605C176FC638F30B3 /* Pods-Segment-AurycSDK-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				42CF78D68F156D9434F33EB5609B3E90 /* Pods-Segment-AurycSDK-iOS_Example.modulemap */,
+				F082100BAAAAD9D6748C821402457FF2 /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.markdown */,
+				C7A7730941D7E14B59DC84FABFA1826E /* Pods-Segment-AurycSDK-iOS_Example-acknowledgements.plist */,
+				6C42EC536CDA4BFAD98C641E5164DBF4 /* Pods-Segment-AurycSDK-iOS_Example-dummy.m */,
+				F50E758D9C6EC650BA6986EF60D26AED /* Pods-Segment-AurycSDK-iOS_Example-frameworks.sh */,
+				D3CB4B8576D5B69235FDF169A16761BF /* Pods-Segment-AurycSDK-iOS_Example-Info.plist */,
+				C0A4EEACE97DF7410DD31E5C5B667254 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h */,
+				CAC65B8C9C2AAD867FB4B955CD2E5BA7 /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */,
+				EE131C9CCEC78E3C7955D76175F26D39 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-Segment-AurycSDK-iOS_Example";
+			path = "Target Support Files/Pods-Segment-AurycSDK-iOS_Example";
+			sourceTree = "<group>";
+		};
+		44EDF06556B35F63734B1FD6261F814D /* Segment-AurycSDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9E8598682FAC1A4D7386B4087EA5FC86 /* ReplaceMe.m */,
+				0928A10E140D2E29D2DF41CDD034E22C /* Pod */,
+				9936F71A9B38FE72355A6C9E332EB29F /* Support Files */,
+			);
+			name = "Segment-AurycSDK-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5F44C6429849B7C8EC17706E0688CB18 /* Pods-Segment-AurycSDK-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E1C1CCFDD346658D26FF3A136853F19 /* Pods-Segment-AurycSDK-iOS_Tests.modulemap */,
+				D689D3458FB62C865032D7F2D22E7907 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.markdown */,
+				922858BDB61220753B8B3F7AAFC043F3 /* Pods-Segment-AurycSDK-iOS_Tests-acknowledgements.plist */,
+				2121123C397A8A84F29F914350C57AC6 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m */,
+				712B19CEAA65B6431F88C28CE150A8F0 /* Pods-Segment-AurycSDK-iOS_Tests-Info.plist */,
+				75BD7095C49D87064D41A6889D9BF815 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h */,
+				3F6A7D88815F2ECF7042A8EC385656FC /* Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig */,
+				D3E40BEDDD09C7F0A46DDB2A2D726AC8 /* Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-Segment-AurycSDK-iOS_Tests";
+			path = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		7054D5E00C1A213D6D98FC804921B0BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FBEEC49DE166B7605C176FC638F30B3 /* Pods-Segment-AurycSDK-iOS_Example */,
+				5F44C6429849B7C8EC17706E0688CB18 /* Pods-Segment-AurycSDK-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9936F71A9B38FE72355A6C9E332EB29F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FCF3A21315247B23FC9ED9569CF31CC /* Segment-AurycSDK-iOS.modulemap */,
+				568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */,
+				80A283C3586D2532F590F33211F098DC /* Segment-AurycSDK-iOS-dummy.m */,
+				AD38A22C701D2E6F7F27630D22330DCE /* Segment-AurycSDK-iOS-Info.plist */,
+				0301F1B1CC7D83F0D12B288864D1082B /* Segment-AurycSDK-iOS-prefix.pch */,
+				E62542036F23B4058C4AE64DC9FFF809 /* Segment-AurycSDK-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Segment-AurycSDK-iOS";
+			sourceTree = "<group>";
+		};
+		A5740E650EA809B67F4AC3518ED65996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01C4087F7133D7FB2114535112290B8 /* Pods_Segment_AurycSDK_iOS_Example.framework */,
+				651EFA63FBD0182EACF36562F6349736 /* Pods_Segment_AurycSDK_iOS_Tests.framework */,
+				F8FBF422B46F7C6D707D1ABCA1D9C1BC /* Segment_AurycSDK_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E55A75B59411A17C20C21D906E50EB23 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A5740E650EA809B67F4AC3518ED65996 /* Products */,
+				7054D5E00C1A213D6D98FC804921B0BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E55A75B59411A17C20C21D906E50EB23 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44EDF06556B35F63734B1FD6261F814D /* Segment-AurycSDK-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5514A70A14EB64DC03F695F9117E4C8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F45EE8D154C3206A2B23A5A5D8DC171 /* Pods-Segment-AurycSDK-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8DDD62BBC6AA158D4F23C7F4E2BE53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96351AAD7EBC61592008CEC1DA3F2836 /* Segment-AurycSDK-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE293EAE2C25A5A34BCFE951DEFA5846 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC0A4C1655E8FC5EB82454383E1B372 /* Pods-Segment-AurycSDK-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02AFA38FFF068FAE7F7F492CDE600CDE /* Segment-AurycSDK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F7079F9645052B1CEB1222B7F4BA76 /* Build configuration list for PBXNativeTarget "Segment-AurycSDK-iOS" */;
+			buildPhases = (
+				BC8DDD62BBC6AA158D4F23C7F4E2BE53 /* Headers */,
+				7A0112FF2D1E111FBD1CE82907C2309F /* Sources */,
+				8C860B541F8E657B8E4BDF7D118DA2E5 /* Frameworks */,
+				947DE9BA44E277E593A0C87BDFA0C08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segment-AurycSDK-iOS";
+			productName = "Segment-AurycSDK-iOS";
+			productReference = F8FBF422B46F7C6D707D1ABCA1D9C1BC /* Segment_AurycSDK_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C760FBA4D09C48E62A1D65CFD00BED5 /* Pods-Segment-AurycSDK-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C957AB95191C9E3D71F99CEE31C2630 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Example" */;
+			buildPhases = (
+				5514A70A14EB64DC03F695F9117E4C8E /* Headers */,
+				5011A5C834023BAC3EEB5369D6D66A11 /* Sources */,
+				BF101A1C4367AD22D597DA6F18559752 /* Frameworks */,
+				1E5D68583809AC9B1782F87BBC7E3906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87291C7B436636056B82C0063A62D19 /* PBXTargetDependency */,
+			);
+			name = "Pods-Segment-AurycSDK-iOS_Example";
+			productName = "Pods-Segment-AurycSDK-iOS_Example";
+			productReference = F01C4087F7133D7FB2114535112290B8 /* Pods_Segment_AurycSDK_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDA548B72E82ECED98D1AD21D2B31B40 /* Pods-Segment-AurycSDK-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E245B20B3518E2039541908532A7BA8 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Tests" */;
+			buildPhases = (
+				EE293EAE2C25A5A34BCFE951DEFA5846 /* Headers */,
+				9D18CFDB4410C7A3188F31A63C670B29 /* Sources */,
+				44A88CE0A5A09F98633A9A280B8581F5 /* Frameworks */,
+				14A2CF26B2A030A2B16A1E0F4D97A374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBA250FC49D6672E4BF508CE6969665 /* PBXTargetDependency */,
+			);
+			name = "Pods-Segment-AurycSDK-iOS_Tests";
+			productName = "Pods-Segment-AurycSDK-iOS_Tests";
+			productReference = 651EFA63FBD0182EACF36562F6349736 /* Pods_Segment_AurycSDK_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A5740E650EA809B67F4AC3518ED65996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C760FBA4D09C48E62A1D65CFD00BED5 /* Pods-Segment-AurycSDK-iOS_Example */,
+				CDA548B72E82ECED98D1AD21D2B31B40 /* Pods-Segment-AurycSDK-iOS_Tests */,
+				02AFA38FFF068FAE7F7F492CDE600CDE /* Segment-AurycSDK-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A2CF26B2A030A2B16A1E0F4D97A374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5D68583809AC9B1782F87BBC7E3906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947DE9BA44E277E593A0C87BDFA0C08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5011A5C834023BAC3EEB5369D6D66A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DEBC587193EA00CA2E90648E9B684F /* Pods-Segment-AurycSDK-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0112FF2D1E111FBD1CE82907C2309F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527ED2F991F162BC932E995123D6933A /* ReplaceMe.m in Sources */,
+				DAA83CD33EA74FCF653414C4A229E86A /* Segment-AurycSDK-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D18CFDB4410C7A3188F31A63C670B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0800C3BC21AA96469A134DE987112867 /* Pods-Segment-AurycSDK-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBA250FC49D6672E4BF508CE6969665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Segment-AurycSDK-iOS_Example";
+			target = 6C760FBA4D09C48E62A1D65CFD00BED5 /* Pods-Segment-AurycSDK-iOS_Example */;
+			targetProxy = 939ED363B5AFC737DFDB09C204009C87 /* PBXContainerItemProxy */;
+		};
+		F87291C7B436636056B82C0063A62D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Segment-AurycSDK-iOS";
+			target = 02AFA38FFF068FAE7F7F492CDE600CDE /* Segment-AurycSDK-iOS */;
+			targetProxy = 0910EE2AFFEF7E523F598A3A394BD603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30FFAF3E29B052FB842CCC99EAD048DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E40BEDDD09C7F0A46DDB2A2D726AC8 /* Pods-Segment-AurycSDK-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D95EBE2C3435216DB93957B7BB8F293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Segment_AurycSDK_iOS;
+				PRODUCT_NAME = Segment_AurycSDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54E8C4BFC11100D482B2FFDC7E73AF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568F643970A660D16B664CDE0ABD594E /* Segment-AurycSDK-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Segment-AurycSDK-iOS/Segment-AurycSDK-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Segment_AurycSDK_iOS;
+				PRODUCT_NAME = Segment_AurycSDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63F1078A306BCAC38044E37C8A328843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6A7D88815F2ECF7042A8EC385656FC /* Pods-Segment-AurycSDK-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Tests/Pods-Segment-AurycSDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		826BD7A24980971AFE8DBBCB018DAAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE131C9CCEC78E3C7955D76175F26D39 /* Pods-Segment-AurycSDK-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Example/Pods-Segment-AurycSDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Example/Pods-Segment-AurycSDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99218FAC76018B7B1F83E95406228E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC65B8C9C2AAD867FB4B955CD2E5BA7 /* Pods-Segment-AurycSDK-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Example/Pods-Segment-AurycSDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Segment-AurycSDK-iOS_Example/Pods-Segment-AurycSDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E245B20B3518E2039541908532A7BA8 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F1078A306BCAC38044E37C8A328843 /* Debug */,
+				30FFAF3E29B052FB842CCC99EAD048DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C957AB95191C9E3D71F99CEE31C2630 /* Build configuration list for PBXNativeTarget "Pods-Segment-AurycSDK-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99218FAC76018B7B1F83E95406228E0F /* Debug */,
+				826BD7A24980971AFE8DBBCB018DAAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F7079F9645052B1CEB1222B7F4BA76 /* Build configuration list for PBXNativeTarget "Segment-AurycSDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E8C4BFC11100D482B2FFDC7E73AF54 /* Debug */,
+				3D95EBE2C3435216DB93957B7BB8F293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

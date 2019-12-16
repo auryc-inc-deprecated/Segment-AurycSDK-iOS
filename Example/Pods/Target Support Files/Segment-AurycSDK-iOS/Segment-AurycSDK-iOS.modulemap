@@ -1,0 +1,6 @@
+framework module Segment_AurycSDK_iOS {
+  umbrella header "Segment-AurycSDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

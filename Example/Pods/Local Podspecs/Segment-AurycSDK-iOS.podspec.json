@@ -1,0 +1,22 @@
+{
+  "name": "Segment-AurycSDK-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of Segment-AurycSDK-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/azelaya6/Segment-AurycSDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "azelaya6": "alcideszelaya@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/azelaya6/Segment-AurycSDK-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Segment-AurycSDK-iOS/Classes/**/*"
+}
