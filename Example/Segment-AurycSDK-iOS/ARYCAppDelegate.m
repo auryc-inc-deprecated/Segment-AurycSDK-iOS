@@ -10,6 +10,8 @@
 
 #import <Analytics/SEGAnalytics.h>
 #import <Segment_AurycSDK_iOS/SEGAurycSDKIntegrationFactory.h>
+//#import <Segment_CleverTap/SEGCleverTapIntegrationFactory.h>
+
 @implementation ARYCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -25,7 +27,7 @@
     configuration.recordScreenViews = YES;
 
     [configuration use:[SEGAurycSDKIntegrationFactory instance]];
-    
+//    [configuration use:[SEGCleverTapIntegrationFactory instance]];
     [SEGAnalytics setupWithConfiguration:configuration];
 
     return YES;

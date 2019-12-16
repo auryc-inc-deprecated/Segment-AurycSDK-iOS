@@ -15,9 +15,13 @@
     if (self = [super init]) {
         self.settings = settings;
         
-        NSString *siteId = [settings objectForKey:@"aurycsdk_siteid"];
-        NSString *accessToken = [settings objectForKey:@"aurycsdk_acess_token"];
-        NSNumber *dev = [settings objectForKey:@"aurycsdk_dev"];
+//        NSString *siteId = [settings objectForKey:@"aurycsdk_siteid"];
+//        NSString *accessToken = [settings objectForKey:@"aurycsdk_acess_token"];
+//        NSNumber *dev = [settings objectForKey:@"aurycsdk_dev"];
+        
+        NSString *siteId = [settings objectForKey:@"clevertap_account_id"];
+        NSString *accessToken = [settings objectForKey:@"clevertap_account_token"];
+        NSNumber *dev = [NSNumber numberWithBool:YES];
         
         // uncomment for dev
 //        siteId = @"683-ios-sdk-testing-appcom";
